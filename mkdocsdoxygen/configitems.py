@@ -5,7 +5,7 @@ for the original implementation.
 """
 __all__ = ("ConfigItems",)
 
-from collections import Sequence
+from collections.abc import Sequence
 
 from mkdocs.config.base import ValidationError
 from mkdocs.config.config_options import BaseConfigOption, SubConfig
