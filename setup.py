@@ -19,7 +19,7 @@ setup(
     python_requires='>=3.10',
     name="mkdocs-doxygen-plugin",
 
-    version="0.1.0",
+    version="0.1.1",
 
     description="Doxygen plugin for MkDocs",
     long_description=long_description,
