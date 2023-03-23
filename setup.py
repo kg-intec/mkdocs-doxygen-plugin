@@ -16,6 +16,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
+    python_requires='>=3.10',
     name="mkdocs-doxygen-plugin",
 
     version="0.1.0",
